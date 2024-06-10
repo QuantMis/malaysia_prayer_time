@@ -12,6 +12,7 @@
 ### ✅ Next steps
 - Add support for **IOS**
 - Implement caching 
+- Add support for local notification
 
 <br>
 

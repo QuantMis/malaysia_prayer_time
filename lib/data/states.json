@@ -1,0 +1,60 @@
+{
+    "states": [
+        {
+            "id": 1,
+            "name": "Johor"
+        },
+        {
+            "id": 2,
+            "name": "Kedah"
+        },
+        {
+            "id": 3,
+            "name": "Kelantan"
+        },
+        {
+            "id": 4,
+            "name": "Melaka"
+        },
+        {
+            "id": 5,
+            "name": "Negeri Sembilan"
+        },
+        {
+            "id": 6,
+            "name": "Pahang"
+        },
+        {
+            "id": 7,
+            "name": "Perlis"
+        },
+        {
+            "id": 8,
+            "name": "Pulau Pinang"
+        },
+        {
+            "id": 9,
+            "name": "Perak"
+        },
+        {
+            "id": 10,
+            "name": "Sabah"
+        },
+        {
+            "id": 11,
+            "name": "Selangor"
+        },
+        {
+            "id": 12,
+            "name": "Sarawak"
+        },
+        {
+            "id": 13,
+            "name": "Terengganu"
+        },
+        {
+            "id": 14,
+            "name": "Wilayah Persekutuan"
+        }
+    ]
+}
