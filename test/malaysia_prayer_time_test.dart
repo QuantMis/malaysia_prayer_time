@@ -1,4 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:malaysia_prayer_time/e_solat_connector.dart';
 import 'package:malaysia_prayer_time/malaysia_prayer_time.dart';
 
 void main() {
@@ -22,5 +23,39 @@ void main() {
       count += zones.length;
     }
     expect(count, totalZones);
+  });
+
+  test('Esolat prayer time today() method return PrayerTime obj', () async {
+    ESolatConnector esolatConnector = ESolatConnector();
+    List<Zone> zones = await Zone.all();
+    PrayerTime prayerTime = await esolatConnector.today(zone: zones.first);
+    expect(prayerTime, isA<PrayerTime>());
+  });
+
+  test('Esolat prayer time week() method return List<PrayerTime> obj',
+      () async {
+    ESolatConnector esolatConnector = ESolatConnector();
+    List<Zone> zones = await Zone.all();
+    List<PrayerTime> listPrayerTime =
+        await esolatConnector.week(zone: zones.first);
+    expect(listPrayerTime, isA<List<PrayerTime>>());
+  });
+
+  test('Esolat prayer time month() method return List<PrayerTime> obj',
+      () async {
+    ESolatConnector esolatConnector = ESolatConnector();
+    List<Zone> zones = await Zone.all();
+    List<PrayerTime> listPrayerTime =
+        await esolatConnector.month(zone: zones.first);
+    expect(listPrayerTime, isA<List<PrayerTime>>());
+  });
+
+  test('Esolat prayer time year() method return List<PrayerTime> obj',
+      () async {
+    ESolatConnector esolatConnector = ESolatConnector();
+    List<Zone> zones = await Zone.all();
+    List<PrayerTime> listPrayerTime =
+        await esolatConnector.year(zone: zones.first);
+    expect(listPrayerTime, isA<List<PrayerTime>>());
   });
 }
