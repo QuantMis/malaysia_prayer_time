@@ -1,4 +1,4 @@
-# Malaysia Prayer Time Package for Flutter
+# Malaysia Prayer Time
 JAKIM e-Solat API wrapper package for Flutter (IOS, Android)
 
 ### **Key Features:**
@@ -50,7 +50,7 @@ flutter pub get
 
 <br>
 
-## Example (Android)
+## Example
 ```Dart
 import 'package:malaysia_prayer_time.dart';
 
