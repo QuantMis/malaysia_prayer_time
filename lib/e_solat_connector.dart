@@ -42,4 +42,17 @@ class ESolatConnector {
       throw Exception('ESolat Connector error $e');
     }
   }
+
+  Future<List<PrayerTime>> duration(
+      {required Zone zone,
+      required String datestart,
+      required String dateend}) async {
+    try {
+      Map<dynamic, dynamic> decodedResult = await HttpService.post(
+          zone: zone.code, datestart: datestart, dateend: dateend);
+      return PrayerTime.getListFromJson(decodedResult);
+    } catch (e) {
+      throw Exception('ESolat Connector error $e');
+    }
+  }
 }
