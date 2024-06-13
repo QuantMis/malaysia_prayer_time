@@ -26,7 +26,3 @@ flutter:
         pluginClass: MalaysiaPrayerTimePlugin
       ios: 
         pluginClass: MalaysiaPrayerTimePlugin
-
-        assets:
-          - lib/data
-           
