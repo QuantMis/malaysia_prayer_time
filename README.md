@@ -8,6 +8,7 @@
 * **Get this week prayer time**
 * **Get monthly prayer time**
 * **Get yearly prayer time**
+* **Get prayer time for custom duration**
 
 ### ✅ Next steps
 - Add support for **IOS**
@@ -52,7 +53,7 @@ flutter pub get
 ```Dart
 import 'package:malaysia_prayer_time.dart';
 
-\\\ Declare the specific zones where
+\\\ Declare the specific zones
 Zone zone = Zone.all().first;
 
 \\\ Declare states to store the prayer time data

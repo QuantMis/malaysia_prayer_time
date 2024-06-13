@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'utils/utils.dart';
 
 class Zone {
