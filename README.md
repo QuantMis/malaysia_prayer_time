@@ -1,4 +1,5 @@
 # Malaysia Prayer Time Package for Flutter
+JAKIM e-Solat API wrapper package for Flutter (IOS, Android)
 
 ### **Key Features:**
 * **Get list of zones in Malaysia**
