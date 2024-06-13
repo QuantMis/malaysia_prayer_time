@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 JAKIM e-Solat API wrapper package for Flutter (IOS, Android)
                        DESC
-  s.homepage         = ''
+  s.homepage         = 'https://github.com/QuantMis/malaysia_prayer_time'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Israa Saifullah' => 'israasaifullah@gmail.com' }
   s.source           = { :path => '.' }
