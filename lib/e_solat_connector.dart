@@ -3,7 +3,6 @@ import 'package:malaysia_prayer_time/malaysia_prayer_time.dart';
 import 'package:malaysia_prayer_time/utils/http_service.dart';
 
 class ESolatConnector {
-
   /// A function that return single prayertime object
   /// This prayertime object contain the prayertime information for today
   /// The [zone] should be a Zone object type.
@@ -31,7 +30,7 @@ class ESolatConnector {
   }
 
   /// A function that return a list prayertime object
-  /// This list prayertime object contain the prayertime information for this month 
+  /// This list prayertime object contain the prayertime information for this month
   /// The [zone] should be a Zone object type.
   Future<List<PrayerTime>> month({required Zone zone}) async {
     try {

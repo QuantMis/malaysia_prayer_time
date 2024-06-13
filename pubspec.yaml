@@ -1,6 +1,6 @@
 name: malaysia_prayer_time
 description: "A wrapper for malaysia prayer time API (JAKIM e-solat) for Android and IOS"
-version: 0.0.2+2
+version: 0.0.3
 homepage: https://github.com/QuantMis/malaysia_prayer_time
 repository: https://github.com/QuantMis/malaysia_prayer_time
 
