@@ -1,4 +1,5 @@
-import 'utils/utils.dart';
+import 'utils/constant.dart';
+import 'dart:convert';
 
 class Zone {
   String code, name;
@@ -8,7 +9,7 @@ class Zone {
 
   static Future<List<Zone>> all() async {
     List<Zone> zones = [];
-    List<dynamic> data = await readJsonFile('lib/data/zones.json', 'zones');
+    List<dynamic> data = jsonDecode(Constant.zones)['zones'];
     for (int i = 0; i < data.length; i++) {
       zones.add(Zone(data[i]['code'], data[i]['name'], data[i]['stateId']));
     }
