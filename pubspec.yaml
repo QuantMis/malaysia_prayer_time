@@ -1,11 +1,11 @@
 name: malaysia_prayer_time
 description: "A wrapper for malaysia prayer time API (JAKIM e-solat) for Android and IOS"
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/jakim-esolat/malaysia_prayer_time
 
 environment:
   sdk: '>=3.2.3 <4.0.0'
-  flutter: ">=1.17.0"
+  flutter: ">=1.20.0"
 
 dependencies:
   flutter:
@@ -21,7 +21,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.malaysia_prayer_time
+        package: io.codedancoffee.malaysia_prayer_time
         pluginClass: MalaysiaPrayerTimePlugin
       ios: 
         pluginClass: MalaysiaPrayerTimePlugin
